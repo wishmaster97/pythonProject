@@ -28,5 +28,4 @@ for i in elements:
         driver.find_elements(By.XPATH, "//button[@type='button'][normalize-space()='Add']").__getitem__(ind).click()
         print("Button Added")
 
-
 driver.close()
